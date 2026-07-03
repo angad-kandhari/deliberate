@@ -4,7 +4,7 @@
 
 A drop-in skill library for LLM coding agents (Claude Code, Codex, Cursor, Gemini, and 40+ others) that mitigates the failure modes that show up once you're mostly programming in English: silent assumptions, sycophancy, overcomplication, orthogonal edits, runaway loops, half-finished migrations, tautological tests, and confidence without calibration.
 
-One foundational skill. Nine specialized skills. Each a standalone `SKILL.md` with frontmatter. Install with one command or drop in by hand.
+One foundational skill. Ten specialized skills. Each a standalone `SKILL.md` with frontmatter. Install with one command or drop in by hand.
 
 Site: **[deliberate.work](https://deliberate.work)**
 
@@ -75,6 +75,7 @@ Load these alongside `deliberate` when the task calls for them. Each is a standa
 | [`test`](./skills/test/SKILL.md) | Writing or auditing tests | Over-mocking, tautological suites |
 | [`verify`](./skills/verify/SKILL.md) | Claiming work is done, handing off a change | False "done" claims, gamed tests, verification debt |
 | [`secure`](./skills/secure/SKILL.md) | Touching auth, input, secrets, or data boundaries | Bypassed controls, injectable code, leaked secrets |
+| [`explore`](./skills/explore/SKILL.md) | Working in a codebase you didn't write | Duplicate helpers, pattern-blind changes, editing unread files |
 | [`architect`](./skills/architect/SKILL.md) | Crossing component boundaries, shaping contracts | Premature abstraction, boundary blur |
 | [`migrate`](./skills/migrate/SKILL.md) | DB schema, framework upgrade, API version bump | Big-bang rewrites, half-finished migrations |
 | [`incident`](./skills/incident/SKILL.md) | Production is on fire, paging alert is active | Shotgun fixes under pressure, lost evidence |
@@ -97,6 +98,7 @@ When reviewing PRs, also follow @skills/review/SKILL.md.
 When writing tests, also follow @skills/test/SKILL.md.
 Before claiming work is done or handing off a change, also follow @skills/verify/SKILL.md.
 When touching auth, user input, secrets, or data access, also follow @skills/secure/SKILL.md.
+Before adding code to an unfamiliar part of the codebase, also follow @skills/explore/SKILL.md.
 When crossing component boundaries, also follow @skills/architect/SKILL.md.
 When planning a migration, also follow @skills/migrate/SKILL.md.
 When responding to an incident, also follow @skills/incident/SKILL.md.
