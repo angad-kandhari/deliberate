@@ -14,6 +14,7 @@ skills/
   verify/SKILL.md       — verification discipline (completion claims)
   secure/SKILL.md       — security discipline
   explore/SKILL.md      — codebase-familiarity discipline
+  memory/SKILL.md       — memory discipline (persistent agent memory)
   architect/SKILL.md    — architectural thinking
   migrate/SKILL.md      — migration playbook
   incident/SKILL.md     — incident response
