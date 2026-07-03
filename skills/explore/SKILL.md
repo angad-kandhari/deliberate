@@ -111,4 +111,4 @@ Before modifying anything used more than once:
 
 ---
 
-*Part of [Deliberate](https://github.com/angad729/deliberate). Load alongside [`deliberate`](../deliberate/SKILL.md); pairs with [`architect`](../architect/SKILL.md) for where code belongs once you know the terrain.*
+*Part of [Deliberate](https://github.com/angad-kandhari/deliberate). Load alongside [`deliberate`](../deliberate/SKILL.md); pairs with [`architect`](../architect/SKILL.md) for where code belongs once you know the terrain.*

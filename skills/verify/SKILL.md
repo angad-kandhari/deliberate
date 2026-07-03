@@ -121,4 +121,4 @@ Generation is fast; review is not, and the difference lands on the reviewer. Eve
 
 ---
 
-*Part of [Deliberate](https://github.com/angad729/deliberate). Load alongside [`deliberate`](../deliberate/SKILL.md); pairs with [`test`](../test/SKILL.md) for what the checks should be and [`review`](../review/SKILL.md) for how the human will judge the handoff.*
+*Part of [Deliberate](https://github.com/angad-kandhari/deliberate). Load alongside [`deliberate`](../deliberate/SKILL.md); pairs with [`test`](../test/SKILL.md) for what the checks should be and [`review`](../review/SKILL.md) for how the human will judge the handoff.*
