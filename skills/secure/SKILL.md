@@ -116,4 +116,4 @@ Hallucinated package names are now a supply-chain attack vector (slopsquatting):
 
 ---
 
-*Part of [Deliberate](https://github.com/angad-kandhari/deliberate). Load alongside [`deliberate`](../deliberate/SKILL.md); pairs with [`review`](../review/SKILL.md) (safety is a review layer) and [`verify`](../verify/SKILL.md) (exploitable isn't done).*
+*Part of [Deliberate](https://github.com/angad-kandhari/deliberate). Load alongside [`deliberate`](../deliberate/SKILL.md); pairs with [`review`](../review/SKILL.md) (safety is a review layer), [`verify`](../verify/SKILL.md) (exploitable isn't done), and [`pentest`](../pentest/SKILL.md) (which hunts the holes this skill then fixes).*
