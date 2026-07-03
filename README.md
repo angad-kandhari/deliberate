@@ -144,16 +144,6 @@ Commit to your repo. Treat it like a linter config for agent behavior: shared, v
 
 ---
 
-## Credits & references
-
-- **Andrej Karpathy** - the original observations this work extrapolates from. Follow him on [x.com/karpathy](https://x.com/karpathy).
-- Site design inspired by [Impeccable](https://impeccable.style/) by [pbakaus](https://github.com/pbakaus).
-- CLI install powered by [vercel-labs/skills](https://github.com/vercel-labs/skills).
-
-None of the diagnosis is mine; the packaging into drop-in planning files is.
-
----
-
 ## Contributing
 
 Found a failure mode that isn't covered? Have a tighter phrasing for a principle? PRs welcome. Keep it short - each file earns its place by being readable in a single sitting.
