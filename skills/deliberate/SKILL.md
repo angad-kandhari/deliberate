@@ -9,7 +9,7 @@ description: "Engineering discipline for AI harnesses. Nine principles for how a
 
 The foundational skill. Nine principles for how an LLM coding agent should write code: think before coding, push back when warranted, plan inline, simplicity first, surgical changes, goal-driven execution, know when to stop, calibrate confidence, maintain context.
 
-Drop this file into any project. Reference it from `CLAUDE.md`, `.cursorrules`, or load it directly. Pairs with the specialized skills in `skills/` for spec work, debugging, review, testing, verification, security, codebase exploration, memory, architecture, migrations, and incidents.
+Drop this file into any project. Reference it from `CLAUDE.md`, `.cursorrules`, or load it directly. Pairs with the specialized skills in `skills/` for spec work, debugging, review, testing, verification, security, penetration testing, codebase exploration, memory, architecture, migrations, and incidents.
 
 Bias is toward caution over speed - for trivial tasks, use judgment.
 

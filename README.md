@@ -4,7 +4,7 @@
 
 A drop-in skill library for LLM coding agents (Claude Code, Codex, Cursor, Gemini, and 40+ others) that mitigates the failure modes that show up once you're mostly programming in English: silent assumptions, sycophancy, overcomplication, orthogonal edits, runaway loops, half-finished migrations, tautological tests, and confidence without calibration.
 
-One foundational skill. Eleven specialized skills. Each a standalone `SKILL.md` with frontmatter. Install with one command or drop in by hand.
+One foundational skill. Twelve specialized skills. Each a standalone `SKILL.md` with frontmatter. Install with one command or drop in by hand.
 
 Site: **[deliberate.work](https://deliberate.work)**
 
@@ -75,6 +75,7 @@ Load these alongside `deliberate` when the task calls for them. Each is a standa
 | [`test`](./skills/test/SKILL.md) | Writing or auditing tests | Over-mocking, tautological suites |
 | [`verify`](./skills/verify/SKILL.md) | Claiming work is done, handing off a change | False "done" claims, gamed tests, verification debt |
 | [`secure`](./skills/secure/SKILL.md) | Touching auth, input, secrets, or data boundaries | Bypassed controls, injectable code, leaked secrets |
+| [`pentest`](./skills/pentest/SKILL.md) | Authorized security testing of a running system | Unauthorized probing, unreproducible findings, collateral damage |
 | [`explore`](./skills/explore/SKILL.md) | Working in a codebase you didn't write | Duplicate helpers, pattern-blind changes, editing unread files |
 | [`memory`](./skills/memory/SKILL.md) | Keeping persistent memory across sessions | Memory bloat, stale recall, repo-duplicating notes |
 | [`architect`](./skills/architect/SKILL.md) | Crossing component boundaries, shaping contracts | Premature abstraction, boundary blur |
@@ -99,6 +100,7 @@ When reviewing PRs, also follow @skills/review/SKILL.md.
 When writing tests, also follow @skills/test/SKILL.md.
 Before claiming work is done or handing off a change, also follow @skills/verify/SKILL.md.
 When touching auth, user input, secrets, or data access, also follow @skills/secure/SKILL.md.
+When running an authorized security assessment, also follow @skills/pentest/SKILL.md.
 Before adding code to an unfamiliar part of the codebase, also follow @skills/explore/SKILL.md.
 When writing to or recalling from persistent memory, also follow @skills/memory/SKILL.md.
 When crossing component boundaries, also follow @skills/architect/SKILL.md.

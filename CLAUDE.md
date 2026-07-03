@@ -12,7 +12,8 @@ skills/
   review/SKILL.md       — code review discipline
   test/SKILL.md         — testing discipline
   verify/SKILL.md       — verification discipline (completion claims)
-  secure/SKILL.md       — security discipline
+  secure/SKILL.md       — security discipline (writing safe code)
+  pentest/SKILL.md      — penetration-testing discipline (authorized offensive testing)
   explore/SKILL.md      — codebase-familiarity discipline
   memory/SKILL.md       — memory discipline (persistent agent memory)
   architect/SKILL.md    — architectural thinking
