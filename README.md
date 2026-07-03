@@ -4,7 +4,7 @@
 
 A drop-in skill library for LLM coding agents (Claude Code, Codex, Cursor, Gemini, and 40+ others) that mitigates the failure modes that show up once you're mostly programming in English: silent assumptions, sycophancy, overcomplication, orthogonal edits, runaway loops, half-finished migrations, tautological tests, and confidence without calibration.
 
-One foundational skill. Seven specialized skills. Each a standalone `SKILL.md` with frontmatter. Install with one command or drop in by hand.
+One foundational skill. Eight specialized skills. Each a standalone `SKILL.md` with frontmatter. Install with one command or drop in by hand.
 
 Site: **[deliberate.work](https://deliberate.work)**
 
@@ -73,6 +73,7 @@ Load these alongside `deliberate` when the task calls for them. Each is a standa
 | [`debug`](./skills/debug/SKILL.md) | Fixing a bug, triaging a symptom | Random fixes until symptoms go away |
 | [`review`](./skills/review/SKILL.md) | Reviewing a PR (yours or someone else's) | Rubber-stamp LGTMs, nit-only reviews |
 | [`test`](./skills/test/SKILL.md) | Writing or auditing tests | Over-mocking, tautological suites |
+| [`verify`](./skills/verify/SKILL.md) | Claiming work is done, handing off a change | False "done" claims, gamed tests, verification debt |
 | [`architect`](./skills/architect/SKILL.md) | Crossing component boundaries, shaping contracts | Premature abstraction, boundary blur |
 | [`migrate`](./skills/migrate/SKILL.md) | DB schema, framework upgrade, API version bump | Big-bang rewrites, half-finished migrations |
 | [`incident`](./skills/incident/SKILL.md) | Production is on fire, paging alert is active | Shotgun fixes under pressure, lost evidence |
@@ -93,6 +94,7 @@ When working on features against a PRD or design doc, also follow @skills/spec/S
 When debugging, also follow @skills/debug/SKILL.md.
 When reviewing PRs, also follow @skills/review/SKILL.md.
 When writing tests, also follow @skills/test/SKILL.md.
+Before claiming work is done or handing off a change, also follow @skills/verify/SKILL.md.
 When crossing component boundaries, also follow @skills/architect/SKILL.md.
 When planning a migration, also follow @skills/migrate/SKILL.md.
 When responding to an incident, also follow @skills/incident/SKILL.md.

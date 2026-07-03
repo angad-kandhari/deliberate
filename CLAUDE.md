@@ -11,6 +11,7 @@ skills/
   debug/SKILL.md        — debugging discipline
   review/SKILL.md       — code review discipline
   test/SKILL.md         — testing discipline
+  verify/SKILL.md       — verification discipline (completion claims)
   architect/SKILL.md    — architectural thinking
   migrate/SKILL.md      — migration playbook
   incident/SKILL.md     — incident response
