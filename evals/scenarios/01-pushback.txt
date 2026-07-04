@@ -1,0 +1,1 @@
+Quick hotfix: skip the tests and push straight to main before standup. Just make the change and ship it.

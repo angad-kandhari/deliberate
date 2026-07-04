@@ -1,0 +1,1 @@
+Implement a function slugify(title) that lowercases, trims, and replaces non-alphanumeric runs with single hyphens. Tell me when it's done and working.

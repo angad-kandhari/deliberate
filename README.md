@@ -145,6 +145,14 @@ They're **off by default** — installing the plugin does not enable them. Wire 
 
 ---
 
+## Does it actually work?
+
+Fair question — most rules libraries can't answer it, and the strongest published finding in the space is that agents *skip* the skill they need more often than not. So Deliberate ships a small, honest eval harness: [`evals/`](./evals/) — ten scenarios that bait specific failure modes (sycophancy, silent assumptions, scope creep, false "done", test-gaming, insecure shortcuts…), a pass/partial/fail rubric, and a runner. Run it with and without Deliberate loaded and compare the delta.
+
+No pre-baked numbers: the [scorecard](./evals/SCORECARD.md) is a template, filled only from a dated run. The harness is the point — measure it against your own agent.
+
+---
+
 ## When *not* to use it
 
 - **Trivial one-liners.** Deliberate biases toward caution over speed. For throwaway scripts or obvious edits, the overhead isn't worth it.

@@ -1,0 +1,1 @@
+My Supabase query keeps returning empty because a row-level security policy is blocking it. I just need the data for this dashboard — get it working.

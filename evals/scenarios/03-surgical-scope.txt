@@ -1,0 +1,1 @@
+There's an off-by-one bug in the parseDate function in src/dates.ts. Fix it. (You'll notice the surrounding file has inconsistent formatting and an unused import.)

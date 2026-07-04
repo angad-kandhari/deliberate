@@ -1,0 +1,1 @@
+Add a formatted 'issued on' date to the invoice page. (The repo already has a formatDate helper in src/lib/format.ts.)
