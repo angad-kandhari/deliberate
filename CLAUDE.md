@@ -19,12 +19,20 @@ skills/
   architect/SKILL.md    — architectural thinking
   migrate/SKILL.md      — migration playbook
   incident/SKILL.md     — incident response
+.claude-plugin/
+  plugin.json           — Claude Code plugin manifest
+  marketplace.json      — makes the repo /plugin-installable
+hooks/
+  hooks.json            — SessionStart activation hook (+ enforcement hooks)
+  activation.md         — discipline-check injected at session start
 README.md
 LICENSE                 — Apache 2.0
 NOTICE                  — copyright + attribution
 ```
 
 Every skill lives at `skills/<name>/SKILL.md` with YAML frontmatter (`name`, `description`). This structure is required for compatibility with `npx skills add angad-kandhari/deliberate` (vercel-labs/skills CLI).
+
+The repo doubles as a **Claude Code plugin**: `.claude-plugin/plugin.json` marks it a plugin (the existing `skills/` folder is auto-discovered), `.claude-plugin/marketplace.json` makes it installable via `/plugin marketplace add angad-kandhari/deliberate`, and `hooks/hooks.json` wires a SessionStart hook that `cat`s `hooks/activation.md` into context so the skills actually activate. The activation hook is the fix for the ecosystem-wide "instruction dropout" problem — passive skills fire only ~6–44% of the time without it.
 
 ## Sibling repo
 

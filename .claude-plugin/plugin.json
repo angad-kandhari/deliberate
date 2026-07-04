@@ -1,0 +1,23 @@
+{
+  "name": "deliberate",
+  "displayName": "Deliberate",
+  "version": "3.3.0",
+  "description": "Engineering discipline for AI coding agents. Loads discipline skills on demand and injects a discipline-check at session start so they actually fire — countering silent assumptions, sycophancy, overcomplication, scope creep, unverified 'done' claims, and insecure shortcuts.",
+  "author": {
+    "name": "Angad Kandhari",
+    "url": "https://github.com/angad-kandhari"
+  },
+  "homepage": "https://deliberate.work",
+  "repository": "https://github.com/angad-kandhari/deliberate",
+  "license": "Apache-2.0",
+  "keywords": [
+    "engineering-discipline",
+    "code-review",
+    "debugging",
+    "testing",
+    "security",
+    "spec-driven",
+    "agent-skills"
+  ],
+  "hooks": "./hooks/hooks.json"
+}

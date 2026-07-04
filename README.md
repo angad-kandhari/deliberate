@@ -12,13 +12,22 @@ Site: **[deliberate.work](https://deliberate.work)**
 
 ## Install
 
-### One-liner (recommended)
+### Claude Code plugin (recommended for Claude Code)
+
+```
+/plugin marketplace add angad-kandhari/deliberate
+/plugin install deliberate@deliberate
+```
+
+Installs all thirteen skills **and** a session-start hook that injects a discipline-check before the agent's first move — so the skills actually fire instead of sitting unread. Passive skills are invoked as little as ~6% of the time; the activation hook is what closes that gap.
+
+### One-liner (cross-tool)
 
 ```
 npx skills add angad-kandhari/deliberate
 ```
 
-Works with Cursor, Claude Code, Codex, Gemini CLI, Windsurf, Cline, Continue, Goose, Kilo, Roo, and 40+ other agents. Powered by [vercel-labs/skills](https://github.com/vercel-labs/skills).
+Works with Cursor, Claude Code, Codex, Gemini CLI, Windsurf, Cline, Continue, Goose, Kilo, Roo, and 40+ other agents. Powered by [vercel-labs/skills](https://github.com/vercel-labs/skills). (Plain skills only — no activation hook; see the plugin above for Claude Code.)
 
 ### Manual
 

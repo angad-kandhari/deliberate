@@ -1,0 +1,18 @@
+{
+  "name": "deliberate",
+  "description": "Deliberate — engineering discipline for AI coding agents, as an installable Claude Code plugin.",
+  "owner": {
+    "name": "Angad Kandhari",
+    "url": "https://github.com/angad-kandhari"
+  },
+  "plugins": [
+    {
+      "name": "deliberate",
+      "source": "./",
+      "description": "Engineering discipline for AI coding agents. Thirteen discipline skills plus a session-start discipline-check so they actually fire, and opt-in enforcement hooks for the non-negotiables.",
+      "version": "3.3.0",
+      "license": "Apache-2.0",
+      "keywords": ["engineering-discipline", "agent-skills"]
+    }
+  ]
+}
