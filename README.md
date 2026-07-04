@@ -121,9 +121,11 @@ When responding to an incident, also follow @skills/incident/SKILL.md.
 
 Skills land in `.cursor/rules/` automatically via `npx skills add`. For manual installs, reference them from `.cursorrules`.
 
-### Codex / Gemini / other agents
+### Codex / Gemini / other agents (AGENTS.md)
 
-If you used `npx skills add`, you're done — it detects your agents and installs to each. Otherwise include the relevant `SKILL.md` files in your project context or system prompt. Plain markdown with frontmatter works everywhere.
+Tools that read `AGENTS.md` (Codex, Copilot, Cursor, Windsurf, Aider, Zed, Jules, Gemini CLI, and ~28 others) can use the distilled [`AGENTS.md`](./AGENTS.md) at the repo root — the always-on core discipline plus a table pointing to the full skills. Copy it in, or symlink it. If you used `npx skills add`, it detects your agents and installs the skills to each; plain markdown with frontmatter works everywhere.
+
+One discipline library, every agent — that's the point of keeping it tool-agnostic markdown.
 
 ### Team usage
 

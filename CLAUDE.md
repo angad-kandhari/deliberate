@@ -23,8 +23,11 @@ skills/
   plugin.json           — Claude Code plugin manifest
   marketplace.json      — makes the repo /plugin-installable
 hooks/
-  hooks.json            — SessionStart activation hook (+ enforcement hooks)
+  hooks.json            — SessionStart activation hook
   activation.md         — discipline-check injected at session start
+  enforcement/          — opt-in deterministic gates (block-no-verify, test-gate, scope-lock)
+evals/                  — honest with/without eval harness (scenarios, rubric, runner)
+AGENTS.md               — distilled core for AGENTS.md-native tools (Codex, Cursor, …)
 README.md
 LICENSE                 — Apache 2.0
 NOTICE                  — copyright + attribution
