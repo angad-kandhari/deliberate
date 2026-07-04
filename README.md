@@ -131,6 +131,20 @@ Commit to your repo. Treat it like a linter config for agent behavior: shared, v
 
 ---
 
+## Enforcement (optional)
+
+Skills are advisory — a capable model can reason around them, and in practice passive rules are followed only some of the time. For the handful of things that must happen **100% of the time**, prose isn't enough; you need a deterministic gate. Deliberate ships three opt-in [enforcement hooks](./hooks/enforcement/) that give the skills teeth:
+
+| Hook | Enforces | Backs |
+|---|---|---|
+| `block-no-verify` | No `git commit/push --no-verify` — the pre-commit gate can't be skipped | `verify`, `secure` |
+| `test-gate` | The agent can't end the turn claiming "done" while tests fail | `verify` |
+| `scope-lock` | No edits outside a declared scope | `explore` |
+
+They're **off by default** — installing the plugin does not enable them. Wire in only the ones you want; see [`hooks/enforcement/README.md`](./hooks/enforcement/README.md) for the settings snippets. (The Claude Code plugin already enables the one hook that should always run: the session-start discipline-check.)
+
+---
+
 ## When *not* to use it
 
 - **Trivial one-liners.** Deliberate biases toward caution over speed. For throwaway scripts or obvious edits, the overhead isn't worth it.
